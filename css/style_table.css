@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(25, 25, 25);
+    font-family: 'Raleway';
+}
+.invistext{
+    color:rgba(0, 213, 255, 0) ;
+    background: rgba(0, 213, 255, 0);
+    background: linear-gradient(90deg, rgb(0, 213, 255) 0%, rgb(238, 0, 255) 50%, rgb(136, 255, 0)100%);
+    margin-top:-30px;
+    float:inline-start;
+    text-align:start;
+    display:ruby-text-container;
+    font-size:3vmin;
+}
+
+caption{
+    color:white;
+    background-color: gray;
+}
+
+.Login{
+    font-size: 18px;
+    color: rgb(136, 255, 0)
+}
+.Register{
+    font-size: 18px;
+    color: white
+
+}
+.title{
+    color:white;
+}
+span{
+    /*color:rgb(136, 255, 0);*/
+    color:lime
+}
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+.titletext{
+    font-size: 75px;
+}
